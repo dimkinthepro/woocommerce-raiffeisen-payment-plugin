@@ -13,12 +13,12 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-add_action('plugins_loaded', 'initRaiffeisenPaymentGateway');
+add_action('plugins_loaded', 'initRaiffeisenPaymentPlugin');
 
 /**
  * @see https://github.com/Raiffeisen-DGTL/ecom-sdk-javascript
  */
-function initRaiffeisenPaymentGateway()
+function initRaiffeisenPaymentPlugin()
 {
     if (!class_exists('WC_Payment_Gateway')) {
         return;
