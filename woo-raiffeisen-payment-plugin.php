@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:       WooCommerce Raiffeisen payment plugin
-Plugin URI:        #
+Plugin URI:        https://github.com/dimkinthepro/woocommerce-raiffeisen-payment-plugin
 Description:       A WooCommerce Extension that adds Raiffeisen payment plugin
 Version:           1.0.0
 Author:            DimkinThePro
